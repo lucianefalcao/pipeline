@@ -118,7 +118,7 @@ mat4 getAllMatrix(float x, float y, float z, float d){
 void ObjData(){
 
     obj = new objLoader();		
-    obj->load((char *) "monkey_head2.obj");
+    obj->load((char *) "Objects/monkey_head2.obj");
 }
 
 //Inicia o objeto
