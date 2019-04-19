@@ -28,7 +28,7 @@ Após essa etapa, devemos definir mais três vetores, para o novo sistema de coo
 
 * O eixo **Y**: primeiro é realizado o produto vetorial entre o vetor do eixo **X** e o vetor do eixo **Z**.
 
-> ![alt-text](Images/view_matrix.png)
+ ![alt-text](Images/view_matrix.png)
 
 Para a transição para o espaço da câmera ocorrer precisamos criar a matriz *view*. Iremos utilizar os vetores já criados para formar duas matrizes, a composição dessas matrizes irá formar a matriz *view*.
 
