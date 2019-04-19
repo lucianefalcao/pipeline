@@ -29,7 +29,7 @@ mat4 getModelMatrix(float x, float y, float z){
     mat4 translation = translate(modelMatrix, vec3(x,y,z));
     mat4 rotation = rotate(modelMatrix, angle, vec3(x,y,z));
 
-    angle += 0.02f;
+    //angle += 0.01f;
 
     modelMatrix = translation * rotation;
 
@@ -41,10 +41,9 @@ mat4 getModelMatrix(float x, float y, float z){
 */
 mat4 getViewMatrix(){
 
-    vec3 position = vec3(3.0f, 2.0f, 1.0f);
+    vec3 position = vec3(0.0f, 0.0f, 4.0f);
     vec3 lookat = vec3(0.0f, 0.f, 0.f);
     vec3 up = vec3(0.0f, 1.f, 0.0f);
-    vec3 cameraDirection = lookat - position;
 
     vec3 zCamera = -normalize(lookat - position);
     vec3 xCamera = normalize(cross(up, zCamera));
@@ -124,7 +123,7 @@ void ObjData(){
 //Inicia o objeto
 void InitObj(){
 
-    mat4 matrix = getAllMatrix(0.0f, 1.f, 0.f, 2.0f);
+    getAllMatrix(0.0f, .5f, 0.f, 1.f);
 
     for(int i = 0; i < obj->faceCount; i++){
         obj_face *face = obj->faceList[i];
@@ -145,10 +144,11 @@ void InitObj(){
                                 obj->vertexList[face->vertex_index[2]]->e[2],
                                                    1.0f);
 
+
         //Aplicação das matrizes nos vértices
-        vertexOne = matrix * vertexOne;
-        vertexTwo = matrix * vertexTwo;
-        vertexThree = matrix * vertexThree;
+        vertexOne = allMatrix * vertexOne;
+        vertexTwo = allMatrix * vertexTwo;
+        vertexThree = allMatrix * vertexThree;
 
         //Homogeneização (divisão por w)
         vertexOne = vertexOne / vertexOne.w;
