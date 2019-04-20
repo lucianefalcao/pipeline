@@ -71,8 +71,8 @@ A *viewport* é então criada, lembrando que a ordem da multiplicação **IMPORT
 Para realizar a homogeneização, temos que simplesmente dividir os vértices do objeto pela coordenada homogênea **w**. Essa etapa pode ser realizada antes da criação da matriz *viewport*, porém por questão de **eficiência** foi escolhido realizar a multiplicação de todas as matriz e sua aplicação nos vértices antes de dividir por **w**.
 
 <p>
-    <img src="Images/homogeneizacao.png" width=300px align=left>
-    <img src="Images/allMatrix.png" width=350px>
+    <img src="Images/homogeneizacao.png" width=300px align=center>
+    <img src="Images/allMatrix.png" width=350px align=center>
 </p>
 
 ## **3. Resultados**
@@ -84,8 +84,10 @@ Comparação com o objeto disponibilizado pelo professor.
 A primeira figura foi feita pelo professor usando a API OpenGL, a segunda foi realizada por este trabalho. 
 
 ### **3.1. Outros Objetos**
-
-![alt-tex](Images/cubo.png)
+<p>
+    <img src="Images/cubo.png" width=300px align=center>
+    <img src="Images/sphere.png" width=299px align=center>
+</p>
 
 ## **4. Dificuldades**
 
