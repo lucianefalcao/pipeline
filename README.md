@@ -1,8 +1,10 @@
 # **Pipeline Gráfico**
 
+##### Aluna: Luciane Falcão - Matrícula: 20170100795
+
 ## **1. Introdução**
 
-Este trabalho tem como objetivo implementar o pipeline gráfico, passnado os vértices do objeto pelo espaço do objeto até o espaço de tela, através de transformações.
+Este trabalho tem como objetivo implementar o pipeline gráfico, passando os vértices do objeto pelo espaço do objeto até o espaço de tela, através de transformações.
 
 ## **2. Transformações**
 
