@@ -1,6 +1,6 @@
 # **Pipeline Gráfico**
 
-##### Aluna: Luciane Falcão - Matrícula: 20170100795
+##### Discente: Luciane Falcão - Matrícula: 20170100795
 
 ## **1. Introdução**
 
