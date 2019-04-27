@@ -93,7 +93,7 @@ A primeira figura foi feita pelo professor usando a API OpenGL, a segunda foi re
 
 ## **4. Dificuldades**
 
-A maior dificuldade foi rasterizar as linhas, que foi o primeiro trabalho. O algoritmo deve que ser mudado, pois não estava rasterizando da forma correta.
+A maior dificuldade foi rasterizar as linhas, que foi o primeiro trabalho. O algoritmo teve que ser mudado, pois não estava rasterizando da forma correta.
 
 ![alt-text](Images/monkey.png)
 
